@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Product Add</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+</style>
+<body>
+    <div class="container">
+        <header class="row">
+            <h1>Header</h1>
+        </header>
+        <section class="row">
+            <div class="col mt-4">
+                <form action="#" method="post">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>Add new Product</h2>
+                        </div>
+                              <!-- b4-card-head-foot -->
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-7">
+                                     <!-- b4-form-input-text -->
+                               <div class="form-group">
+                                <label for="">Product ID:</label>
+                                <input type="text" class="form-control" name="productId" id="productId" aria-describedby="helpId" placeholder="enter">
+                                <small id="helpId" class="form-text text-muted">Product id is required</small>
+                              </div>
+                              <div class="form-group">
+                                  <label for="">Name:</label>
+                                  <input type="text" class="form-control" name="name" id="name" aria-describedby="helpId" placeholder="enter">
+                                  <small id="helpId" class="form-text text-muted">name is required</small>
+                                </div>
+                                <div class="form-group">
+                                  <label for="">Quantity:</label>
+                                  <input type="number" class="form-control" name="quantity" id="quantity" aria-describedby="helpId" placeholder="enter">
+                                  <small id="helpId" class="form-text text-muted">quantity id is required</small>
+                                </div>
+                                <!-- b4-igroup-text-both -->
+                                <div class="input-group form-group">
+                                  <span class="input-group-text">Unit price</span>
+                                  <input type="number" name="unitPrice" id="unitPrice" class="form-control" placeholder="enter">
+                                  <span class="input-group-text">VND</span>
+                                </div>
+                                   <!-- b4-select -->
+                                <div class="form-group">
+                                    <label for="status">Category</label>
+                                    <select class="form-control" name="CategoryId" id="categotyId">
+                                      <option>1</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                      <option>5</option>
+                                      
+                                    </select>
+                                </div>
+                                </div>
+                                <div class="col-3">
+                                    <img src="https://vieclamthemonline.com/wp-content/uploads/2021/10/hinh-anh-co-gai-cute-1.jpg" width="90%" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="no thing!">
+                                    <div class="form-group">
+                                      <label for="">Image File</label>
+                                      <input type="file" class="form-control-file" name="ProductImage" id="ProductImage" placeholder="enter image" aria-describedby="fileHelpId">
+                                      <small id="fileHelpId" class="form-text text-muted">Product image is required</small>
+                                    </div>
+                                    <div class="input-group form-group">
+                                        <span class="input-group-text">Discount</span>
+                                        <input type="number" name="discount" id="discount" class="form-control" placeholder="enter">
+                                        <span class="input-group-text">%</span>
+                                      </div>
+                                      <!-- b4-select -->
+                                      <div class="form-group">
+                                        <label for="status">Status</label>
+                                        <select class="form-control" name="status" id="status">
+                                          <option>Out of Stock</option>
+                                          <option>On Sale</option>
+                                          <option>Featured</option>
+                                          <option>Bestseller</option>
+                                          <option>Out of order</option>
+                                          
+                                        </select>
+                                      </div>
+                                </div>
+                            </div> 
+                            <div class="row">
+                                <!-- b4-form-textarea -->
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="">Description</label>
+                                        <textarea class="form-control" name="desc" id="desc" rows="5"></textarea>
+                                      </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="card-footer text-muted">
+                            <button class="btn btn-success">New</button>
+                            <button class="btn btn-primary">Save</button>
+                            <button class="btn btn-danger float-right">Delete</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer class="row">
+            <h1>Footer</h1>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
